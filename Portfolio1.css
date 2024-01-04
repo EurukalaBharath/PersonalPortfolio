@@ -1,0 +1,185 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+body{
+
+    color: #fff;
+}
+.header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+background: transparent;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+.logo{
+position: relative;
+font-size: 25px;
+color: #fff;
+text-decoration: none;
+font-weight: 600;
+cursor: default;
+opacity: 0;
+animation: slideRight 1s ease forwards;
+}
+.navbar a{
+display: inline-block;
+font-size: 25px;
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+margin-left: 35px;
+transition: 0.3s ;
+opacity: 0;
+animation: slideTop 0.5s ease forwards;
+animation-delay: calc(.2s * var(--i));
+
+}
+.navbar a:hover{
+    color: #ff7000;
+
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3UupzRl0H9g1Vt8gp3W-hMeRn1sxU-YlBtg&usqp=CAU) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content{
+max-width: 600px;
+
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700px;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay:0.7s 
+
+}
+.home-content h3 span{
+    color: cyan;
+}
+.home-content h3:nth-of-type(2){
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+}
+.home-content h1{
+ font-size: 56px;
+ font-weight: 700;
+ margin: -3px 0;
+ opacity: 0;
+animation: slideRight 1s ease forwards;
+animation-delay: 1s;
+
+}
+.home-content p{
+    font-size:20px ;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ff7000;
+    border-radius: 20px;
+    color: #ff7000;
+    text-decoration: none;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay:calc(0.2s * var(--i)) ;
+
+
+    margin: 30px 15px 30px 0px;
+}
+.home-sci a:hover{
+    background: #ff7000;
+    color: black;
+    box-shadow: 0 0 20px #ff7000;
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #ff7000;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #ff7000,0 0 25px #ff7000
+
+}
+.btn-box:hover{
+box-shadow: 0 0 5px #ff7000,
+0 0 25px #ff7000,
+0 0 50px #ff7000,0 0 100px #ff7000,
+0 0 200px #ff7000
+
+
+}
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

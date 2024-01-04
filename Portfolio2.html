@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persnola portifolio</title>
+    <link rel="stylesheet" href="Portfolio2.css">
+    <link rel="stylesheet" href="Portfolio2.js">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+         <div id="header">
+            <div class="cointaner">
+                <nav>
+                    <h1 class="logo">PORTFOLIO</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <!-- <li><a href="myeduaction">Eduaction</a></li>
+                        <li><a href="myskills">Skills</a></li>
+                        <li><a href="myprojects">Projects</a></li> -->
+                        <li><a href="#contact">contact</a></li>
+                        <i class='bx bx-x' onclick="closemenu()"></i>
+                    </ul>
+                       <i class='bx bx-menu' onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>SOFTWARE <span>Developer</span></p>
+                    <h1>Hello I,am <br><span>Bharath</span> Eurukala</h1>
+                    <span>   <p class="paragraph">Seeking a challenging position as a fresher to leverage my educational 
+                     background and passion <br>for learning, while gaining practical experience in a professional setting.
+                        Eager to contribute <br>to a dynamic team and enhance my skills in order to make a positive impact on the organization. </p></span>
+                   
+                    <div class="social-icons">
+                        <a href=""><i class='bx bxl-facebook'></i></a>
+                        <a href=""><i class='bx bxl-instagram'></i></a>
+                        <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                        <a href=""><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+            </div>
+         </div>
+                                        <!--About-->
+
+         <div id="about">
+            <div class="cointainer">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="resumeIMG1.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Seeking a challenging position as a fresher to leverage my educational background and
+                            passion for learning, while gaining practical experience in a professional setting. Eager
+                            to contribute to a dynamic team and enhance my skills in order to make a positive
+                            impact on the organization.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links"  onclick="opentab('eduaction')">Eduaction</p>
+                                <p class="tab-links"  onclick="opentab('projects')">Projects</p>
+                            </div>
+                            <div id="myskills">
+                            <div class="tab-contents active-tab"  id="skills">
+                                <ul>
+                                    <li>Core-Java<br><span>Control-Statements,Constructors,OOPs,Arrays,Collections,java8 Features</span></li>
+                                    <li>Advance-java<br><span>JDBC,Servlet,JSP</span></li>
+                                    <li>Oracle<br><span>SQL/PLSQL</span></li>
+                                    <li>Front-End<br><span>HTML,CSS,Java-Script</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="myeduaction">
+                            <div class="tab-contents" id="eduaction">
+                                <ul>
+                                    <li>SSC<br><span>ZPHS Jillella,<br>8.5 GPA </span></li>
+                                    <li>INTERMEDIATE<br><span>Sai Sri Junior College,Rajanna Sircilla,<br>MPC,<br>746</span></li>
+                                    <li>DEGREE<br><span>Ayyappa Degree College,Rajanna Sircilla,<br>BSC(MPCS),<br>6.91 GPA</span></li>
+                        
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="myprojects">
+                            <div class="tab-contents" id="projects">
+                                <ul>
+                                    <li>SIGN-UP & LOG-IN<br><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, provident. Odio ex illum illo blanditiis dolor inventore provident. Voluptatem repellendus cupiditate voluptatum, vel possimus dolores illo! Quae dolorum magni voluptatum!</span></li>
+                                    <li>LIBRARY_MANAGEMENT<br><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium quibusdam corporis, eius maiores aliquid quidem cum error magni aliquam sunt officiis deserunt laborum commodi, perferendis, nisi ipsam. Repudiandae, illum praesentium.</span></li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        
+                            <!--        contact           -->
+                            <div id="contact">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="contact-left">
+                                            <h1 class="sub-title">Contact Me</h1>
+                                            <p> <i class='bx bxl-gmail'></i> bharatheurukala1998@gmail.com</p>
+                                            <p> <i class='bx bxs-phone-call'></i> 7569995366</p>
+                                            <div class="social-icons">
+                                                <a href=""><i class='bx bxl-facebook'></i></a>
+                                                <a href=""><i class='bx bxl-instagram'></i></a>
+                                                <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                                                <a href=""><i class='bx bxl-twitter'></i></a>
+                                            </div>
+                                            <a href="C:\Users\hp\Documents\resume" download class="btn btn2">Download CV</a>
+                                        </div>
+                                        <div class="contact-right">
+                                            <form  name="submit-to-google-sheet">
+                                                <input type="text" name="Name" placeholder="Your Name" required >
+                                                <input type="email" name="Email" placeholder="Your Email" required>
+                                                <textarea name="Message" rows="6" placeholder="Enter Your message"></textarea>
+                                                <button type="submit" class="btn btn2">submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                            </div>
+        
+
+</body>
+</html>

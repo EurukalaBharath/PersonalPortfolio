@@ -1,0 +1,256 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+#main{
+    width: 100%;
+   background-image: url(https://e1.pxfuel.com/desktop-wallpaper/186/607/desktop-wallpaper-black-website-background-website-thumbnail.jpg);
+   /* background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%),url(https://e1.pxfuel.com/desktop-wallpaper/186/607/desktop-wallpaper-black-website-background-website-thumbnail.jpg);*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 109vh;
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+
+}
+.logo{
+color: #fff;
+font-size: 35px;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 20px;
+padding: 10px;
+margin: 25px 0px 0px 30px;
+
+}
+.logo span{
+    font-size: 40px;
+    color: #ff7200;
+    font-family: Arial, Helvetica, sans-serif;
+padding-left: 20px;
+padding: 10px;
+}
+.menu{
+width: 400px;
+float: left;
+height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 52px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a{
+   text-decoration: none;
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   transition: 0.3s ease-in-out;
+}
+ul li a:hover{
+     color: #ff7200;
+}
+.search{
+    width: 400px;
+    float: left;
+    margin-left: 320px;
+
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 15px;
+    color: #fff;
+    border-right: none;
+    float: left;
+    margin-left: 250px;
+    font-size:17px;
+    padding: 10px;
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
+
+}
+
+.btn{
+    width: 140px;
+    height: 45px;
+    background-color: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top:15px;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.btn:focus{
+    outline: none;
+}
+.src:focus{
+    outline: none;
+}
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+
+}
+ .content .para{
+      padding-left: 20px;
+      padding-bottom: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 0.9px;
+      line-height: 25px;
+
+ }
+ .content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 8%;
+    letter-spacing: 2px;
+
+ }
+ .content .cn{
+   width: 170px;
+   height: 40px;
+   border: none;
+   margin-bottom:10px;
+   margin-left: 20px;
+   font-size: 18px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 0.3s ease;
+ }
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+   transition: 0.3s ease;
+}
+.cn:hover{
+    background-color: #ffa939;
+}
+.content span{
+    color: #ff7200;
+    font-size: 65px;
+}
+.form{
+   width: 250px;
+   height: 400px;
+   background-color: #1B4242 ;
+   position: absolute;
+   left: 920px;
+    top: 1px;
+   border-radius: 15px;
+   padding: 25px;
+     
+}
+.form h2{
+
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    background-color: #fff;
+    border-radius: 10px;
+    margin:2px;
+    padding: 9px;
+}
+.form input{
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    border-bottom:2px solid #ff7200 ;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup:hover{
+    background-color: #fff;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    
+    margin-top: 25px;
+    font-size: 18px;
+    border-radius: 18px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+ a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+.form .link{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+     padding-top: 10px;
+     text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.icon a{
+   text-decoration: none;
+   color: #fff;
+}
+.icon ion-icon{
+    
+    color: #fff;
+    font-size: 25px;
+    margin-left: 11px;
+    padding-right: 11px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+    color: #ff7200;
+}
+ 
